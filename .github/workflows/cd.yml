@@ -24,4 +24,4 @@ jobs:
       - name: Build
         run: npm run build
       - name: Deploy
-        run: npm run deploy 
+        run: npm run deploy -- -r git@github.com:Xaviicg92/Lemoncode_Laboratory_Cloud_AutoPages.git
