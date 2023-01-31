@@ -1,10 +1,13 @@
+
 interface SwitchRoutes {
-  puppies: string;
-  kitties: string;
+    puppies: string,
+    kitties: string,
 }
-//
+
 
 export const switchRoutes: SwitchRoutes = {
-  puppies: "/",
-  kitties: "/kitties",
-};
+    puppies: "/",
+    kitties: "/kitties"
+}
+
+
